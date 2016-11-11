@@ -1,0 +1,31 @@
+.divTable {
+    width: 1180px;
+    border:1px solid blue;
+}
+.divHeaders div {
+    padding: 45px 10px 12px 10px;
+    display: table-cell;
+}
+.divHeaders div:first-child {
+    padding-left: 25px;
+    min-width: 100px;
+    max-width: 100px;
+    word-wrap: break-word;
+}
+
+.header1 {
+    background:blue;
+}
+.header2 {
+    min-width: 135px;
+    max-width: 135px;
+}
+.header3 {
+    min-width: 285px;
+    max-width: 285px;
+    background:blue;
+}
+.header4 {
+    width: 100%;
+    background:red;
+}

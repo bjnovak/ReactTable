@@ -1,0 +1,32 @@
+.divTableRow {
+    width: 1180px;
+    display: table-row;
+}
+
+/* row columns */
+
+.divTableRow div {
+    padding: 12px 10px;
+    display: table-cell;
+}
+.divTableRow div:first-child {
+    padding-left: 25px;
+    min-width: 100px;
+    max-width: 100px;
+    word-wrap: break-word;
+    background:red;
+}
+.divTableRow div:nth-child(2) {
+    max-width: 135px;
+    min-width: 135px;
+    background: blue;
+}
+.divTableRow div:nth-child(3) {
+    max-width: 285px;
+    min-width: 285px;background:red;
+}
+.divTableRow div:nth-child(4) {
+    max-width: 565px;
+    min-width: 565px;
+    word-wrap: break-word;
+}
